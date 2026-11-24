@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="ru" xml:lang="ru">
+<head>
+    <title>Вход на сайт | СЭО МГУ им. адм. Г.И. Невельского</title>
+    <link rel="shortcut icon" href="https://course.msun.ru/pluginfile.php/1/core_admin/favicon/64x64/1793160856/%D0%9B%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%83%D1%80%D1%81%2030x30.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Вход на сайт | СЭО МГУ им. адм. Г.И. Невельского" />
+<link rel="stylesheet" type="text/css" href="https://course.msun.ru/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://course.msun.ru/theme/styles.php/boost/1793160856_1704212510/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/course.msun.ru","apibase":"https:\/\/course.msun.ru\/api","homeurl":{},"sesskey":"HorZBDqDYM","sessiontimeout":"7200","sessiontimeoutwarning":1200,"themerev":"1793160856","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1793160856","admin":"admin","svgicons":true,"usertimezone":"\u0410\u0437\u0438\u044f\/\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a","language":"ru","courseId":1,"courseContextId":2,"contextid":1,"contextInstanceId":0,"langrev":1793160856,"templaterev":"1793160856","siteId":1,"userId":0,"deprecationignorelist":[],"traceId":null};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/course.msun.ru\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/course.msun.ru\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/course.msun.ru\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/course.msun.ru\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/course.msun.ru\/theme\/yui_combo.php?m\/1793160856\/","combine":true,"comboBase":"https:\/\/course.msun.ru\/theme\/yui_combo.php?","ext":false,"root":"m\/1793160856\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_offlinequiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_offlinequiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_offlinequiz-util","querystring-parse"]},"moodle-mod_offlinequiz-offlinequizbase":{"requires":["base","node"]},"moodle-mod_offlinequiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_offlinequiz-util":{"requires":["node"],"use":["moodle-mod_offlinequiz-util-base"],"submodules":{"moodle-mod_offlinequiz-util-base":{},"moodle-mod_offlinequiz-util-slot":{"requires":["node","moodle-mod_offlinequiz-util-base"]},"moodle-mod_offlinequiz-util-page":{"requires":["node","moodle-mod_offlinequiz-util-base"]}}},"moodle-mod_offlinequiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_offlinequiz-offlinequizbase","moodle-mod_offlinequiz-util-base","moodle-mod_offlinequiz-util-page","moodle-mod_offlinequiz-util-slot","moodle-course-util"]},"moodle-mod_offlinequiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]}}},"gallery":{"name":"gallery","base":"https:\/\/course.msun.ru\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/course.msun.ru\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1793160856\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/course.msun.ru\/lib\/javascript.php\/1793160856\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/course.msun.ru\/lib\/javascript.php\/1793160856\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<script type="importmap">{
+    "imports": {
+        "@moodle/lms/": "https://course.msun.ru/core/esm/1793160856/@moodle/lms/",
+        "@moodlehq/design-system": "https://course.msun.ru/core/esm/1793160856/@moodlehq/design-system",
+        "react": "https://course.msun.ru/core/esm/1793160856/react",
+        "react/": "https://course.msun.ru/core/esm/1793160856/react/",
+        "react-dom": "https://course.msun.ru/core/esm/1793160856/react-dom",
+        "react-dom/": "https://course.msun.ru/core/esm/1793160856/react-dom/"
+    }
+}</script>
+<meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" />
+<meta name="robots" content="noindex" />
+
+<style type="text/css">
+/*Hide Image + Textbox */
+#page-content > aside{
+display:none!important;
+}
+/*Center loginform*/
+.login-layout-right  {
+margin: 2rem auto;
+}
+@media print {
+    .que .history {
+        display: none;
+    }
+    .que .formulation  {
+        display: none;
+    }
+    .que .comment {
+        display: none;
+    }
+    .que .outcome {
+        display: none;
+    }
+    #showsidebaricon {
+        display: none;
+    }
+}
+
+</style><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta 
+name="robots" content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" 
+content="noindex" /><meta name="robots" content="noindex" /><meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body  id="page-login-index" class="format-site  path-login chrome dir-ltr lang-ru yui-skin-sam yui3-skin-sam course-msun-ru pagelayout-login course-1 context-1 notloggedin theme ">
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="visually-hidden-focusable" href="#maincontent">Перейти к основному содержанию</a>
+</div><script src="https://course.msun.ru/lib/javascript.php/1793160856/lib/polyfills/polyfill.js"></script>
+<script src="https://course.msun.ru/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://course.msun.ru/lib/javascript.php/1793160856/lib/javascript-static.js"></script>
+<script type="module">import "@moodle/lms/core/react_autoinit";</script><script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<style type='text/css'>
+/* Уменьшить отступы списка в блоке настроек */
+	ul {padding-inline-start: 12px;}
+
+/*Bigger coursenames*/
+.info > .categoryname.aabtn a { font-size: 1.6rem;}
+.info > .coursename .aalink { font-size: 1.2rem;}
+
+/*list bullet width fix*/
+ul {list-style-position: inside !important;}
+
+</style>
+
+    <div id="page" class="mt-0">
+        <div id="page-content" class="min-vh-100 row g-0">
+            <aside class="login-layout-left col-lg-6 d-none d-lg-flex">
+                <div class="login-layout-left-content">
+                        <h1 class="h2 mb-3">Добро пожаловать в Moodle!</h1>
+                        <div class="mx-auto mb-4 text-start">
+                            Здесь  начинается ваш путь к обучению. Получайте доступ к курсам, общайтесь с сокурсниками и достигайте своих целей.
+                        </div>
+                        <p class="mx-auto mb-4">Вы являетесь частью глобального образовательного сообщества</p>
+                        <div class="login-layout-stats">
+                            <div class="login-layout-stat">
+                                <strong class="login-layout-stat-value">500 млн.</strong>
+                                <span>пользователей</span>
+                            </div>
+                            <div class="login-layout-stat">
+                                <strong class="login-layout-stat-value">150 тыс.</strong>
+                                <span>сайтов</span>
+                            </div>
+                            <div class="login-layout-stat">
+                                <strong class="login-layout-stat-value">200+</strong>
+                                <span>стран</span>
+                            </div>
+                        </div>
+                </div>
+            </aside>
+            <div id="region-main" class="login-layout-right col-12 col-lg-6">
+                <div id="region-main-box" class="login-layout-right-content">
+                    <div class="login-container">
+                        <div role="main"><span id="maincontent"></span><div class="loginform">
+        <div id="loginlogo" class="d-flex justify-content-center mb-4">
+            <img id="logoimage" src="https://course.msun.ru/pluginfile.php/1/core_admin/logo/0x200/1793160856/%D0%9B%D0%BE%D0%B3%D0%BE%20%D0%BA%D1%83%D1%80%D1%81.png" class="img-fluid" alt="Система электронного обучения &quot;КУРС&quot; МГУ им. адм. Г.И. Невельского"/>
+        </div>
+    <h1 class="h2">С возвращением</h1>
+    <p class="text-muted mb-4">Система электронного обучения &quot;КУРС&quot; МГУ им. адм. Г.И. Невельского</p>
+        <form class="login-form" action="https://course.msun.ru/login/index.php" method="post" id="login">
+            <input id="anchor" type="hidden" name="anchor" value="">
+            <script>document.getElementById('anchor').value = location.hash;</script>
+            <input type="hidden" name="logintoken" value="m8tlCxXpn1qCkmLyHAAUTfE73hsxRHh8">
+            <div class="login-form-username mb-3">
+                <label for="username" class="form-label">
+                        Логин
+                </label>
+                <input type="text" name="username" id="username" class="form-control" value="barannikov" placeholder="Введите логин" autocomplete="username">
+            </div>
+            <div class="login-form-password mb-3">
+                <label for="password" class="form-label">Пароль</label>
+                <input type="password" name="password" id="password" value="" class="form-control" placeholder="Введите свой пароль" autocomplete="current-password">
+            </div>
+            <div class="text-end mb-3">
+                <a href="https://course.msun.ru/login/forgot_password.php">Забыли пароль?</a>
+            </div>
+            <div class="login-form-submit mb-3">
+                <button class="btn btn-primary w-100" type="submit" id="loginbtn">Вход</button>
+            </div>
+        </form>
+            <div class="login-separator my-5">ИЛИ</div>
+        <form action="https://course.msun.ru/login/index.php" method="post" id="guestlogin" class="mb-4">
+            <input type="hidden" name="logintoken" value="m8tlCxXpn1qCkmLyHAAUTfE73hsxRHh8">
+            <input type="hidden" name="username" value="guest" />
+            <input type="hidden" name="password" value="guest" />
+            <button class="btn btn-outline-secondary login-identityprovider-btn" type="submit" id="loginguestbtn"><i class="fa fa-user me-2" aria-hidden="true"></i>Войти как гость</button>
+        </form>
+        <div class="login-languagemenu d-flex justify-content-center my-5">
+            <div class="action-menu moodle-actionmenu" id="action-menu-0" data-enhance="moodle-core-actionmenu">
+            
+                    <div class="menubar d-flex " id="action-menu-0-menubar">
+            
+                        
+            
+            
+                            <div class="action-menu-trigger">
+                                <div class="dropdown">
+                                    <a
+                                        href="#"
+                                        tabindex="0"
+                                        class=" dropdown-toggle icon-no-margin"
+                                        id="action-menu-toggle-0"
+                                        aria-label="Русский ‎(ru)‎"
+                                        data-bs-toggle="dropdown"
+                                        role="button"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                        aria-controls="action-menu-0-menu"
+                                    >
+                                        
+                                        Русский ‎(ru)‎
+                                            
+                                        <b class="caret"></b>
+                                    </a>
+                                        <div class="dropdown-menu menu dropdown-menu-end" id="action-menu-0-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-0" role="menu">
+                                                                                        <a href="#" class="dropdown-item menu-action" role="menuitem" tabindex="-1" >
+                                            <span class="menu-action-text">Русский ‎(ru)‎</span>
+                                    </a>
+                                                                                        <a href="https://course.msun.ru/login/index.php?lang=en" class="dropdown-item menu-action" data-lang="en" lang="en" role="menuitem" tabindex="-1" >
+                                            <span class="menu-action-text">English ‎(en)‎</span>
+                                    </a>
+                                        </div>
+                                </div>
+                            </div>
+            
+                    </div>
+            
+            </div>
+        </div>
+    <div class="login-cookiesnotice text-center">
+        <button type="button" class="btn btn-link p-0"  data-modal="alert" data-modal-title-str='["cookiesenabled", "core"]'  data-modal-content-str='["cookiesenabled_help_html", "core"]'>Уведомление о файлах cookie</button>
+    </div>
+</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="page-footer" class="footer-popover bg-white">
+        <div data-region="footer-container-popover">
+            <button class="btn btn-icon rounded-circle bg-secondary btn-footer-popover" data-action="footer-popover" aria-label="Показать нижний колонтитул">
+                <i class="icon fa fa-question fa-fw " aria-hidden="true" ></i>
+            </button>
+        </div>
+        <div class="footer-content-popover container" data-region="footer-content-popover">
+                <div class="footer-section p-3 border-bottom">
+    
+    
+                        <div class="footer-support-link"><a href="https://course.msun.ru/user/contactsitesupport.php"><i class="icon fa-regular fa-envelope fa-fw " aria-hidden="true" ></i>Служба поддержки сайта</a></div>
+                </div>
+            <div class="footer-section p-3 border-bottom">
+                <div class="logininfo">
+                    <div class="logininfo">Вы не вошли в систему</div>
+                </div>
+                <div class="tool_usertours-resettourcontainer">
+                </div>
+                
+                
+<!--/*profile page default selected tab change*/-->
+<script>
+var element =  document.getElementById('coursedetails');
+if (typeof(element) != 'undefined' && element != null)
+{
+        document.getElementById("aboutme").removeAttribute("checked");
+        document.getElementById("coursedetails").setAttribute("checked", "checked");
+}
+
+//Удалить поиск по логину со страницы Забыли пароль
+if (window.location.pathname == '/login/forgot_password.php') document.getElementById('id_searchbyusername').remove();
+
+//Надпись красным "После выбора категории нажмите кнопку Применить фильтры!" при добавлении в тест случайных вопросов.
+var target = document.querySelector('#page-mod-quiz-edit');
+var setwarning = false;
+if (window.location.toString().includes('/mod/quiz/edit.php?cmid='))
+{
+const testobserver = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+		tc = document.getElementsByClassName('tab-content');
+		if (document.getElementsByClassName('modal moodle-has-zindex show').length > 0)
+		{
+			if (tc[tc.length-1].getElementsByClassName('ihatemoodleandallthehackihavetoimplement').length < 1) {
+				tc[tc.length-1].insertAdjacentHTML('afterbegin', '<p style="color:red" class="ihatemoodleandallthehackihavetoimplement"><b>После выбора категории нажмите кнопку &laquo;Применить фильтры&raquo;!</b></p>');
+			}
+		}
+    });
+});
+testobserver.observe(target, {
+childList: true,
+});
+}
+
+//Скрыть кнопку Мои курсы (ведет туда же, куда и Личный кабинет)
+document.querySelector('[data-key="mycourses"]').remove();
+
+</script>
+<script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://course.msun.ru/lib/requirejs.php/1793160856/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://course.msun.ru/lib/javascript.php/1793160856/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'https://course.msun.ru/lib/javascript.php/1793160856/lib/jquery/ui-1.14.1/jquery-ui.min',
+        jqueryprivate: 'https://course.msun.ru/lib/javascript.php/1793160856/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://course.msun.ru/lib/javascript.php/1793160856/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxurl":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@4.0.0\/tex-mml-chtml.js","mathjaxconfig":"","lang":"ru"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('ru');
+});;
+M.util.js_pending('filter_glossary/autolinker'); require(['filter_glossary/autolinker'], function(amd) {amd.init(); M.util.js_complete('filter_glossary/autolinker');});;
+
+require([
+    'theme_boost/footer-popover',
+    'core/copy_to_clipboard',
+], function(FooterPopover) {
+    FooterPopover.init();
+});
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader'], function() {
+  M.util.js_complete('theme_boost/loader');
+});
+;
+
+    require(['core/pending'], function(Pending) {
+        const errorMessageDiv = document.getElementById('loginerrormessage');
+        const infoMessageDiv = document.getElementById('logininfomessage');
+        const errorMessage = errorMessageDiv?.textContent.trim();
+        const infoMessage = infoMessageDiv?.textContent.trim();
+        if (errorMessage || infoMessage) {
+            const pendingJS = new Pending('login-move-focus');
+            const usernameField = document.getElementById('username');
+            setTimeout(function() {
+                if (errorMessage && usernameField) {
+                    usernameField.focus();
+                }
+                if (errorMessage) {
+                    errorMessageDiv.innerHTML += "&nbsp;";
+                }
+                if (infoMessage) {
+                    infoMessageDiv.innerHTML += "&nbsp;";
+                }
+                pendingJS.resolve();
+            }, 500);
+        }
+    });
+        require(['core/togglesensitive'], function(ToggleSensitive) {
+            ToggleSensitive.init("password", 1);
+        });
+    require(['core_form/submit'], function(Submit) {
+        Submit.init("loginbtn");
+            Submit.init("loginguestbtn");
+    });
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(null); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435","name":"\u0418\u043c\u044f","error":"\u041e\u0448\u0438\u0431\u043a\u0430","info":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f","yes":"\u0414\u0430","no":"\u041d\u0435\u0442","cancel":"\u041e\u0442\u043c\u0435\u043d\u0430","confirm":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u044c","areyousure":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b?","closebuttontitle":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c","unknownerror":"\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430","file":"\u0424\u0430\u0439\u043b","url":"URL","collapseall":"\u0421\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0432\u0441\u0451","expandall":"\u0420\u0430\u0437\u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0432\u0441\u0451"},"repository":{"type":"\u0422\u0438\u043f","size":"\u0420\u0430\u0437\u043c\u0435\u0440","invalidjson":"\u041d\u0435\u0432\u0435\u0440\u043d\u0430\u044f \u0441\u0442\u0440\u043e\u043a\u0430 JSON","nofilesattached":"\u041d\u0435 \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043d\u0438 \u043e\u0434\u0438\u043d \u0444\u0430\u0439\u043b","filepicker":"\u0412\u044b\u0431\u043e\u0440 \u0444\u0430\u0439\u043b\u0430","logout":"\u0412\u044b\u0445\u043e\u0434","nofilesavailable":"\u041d\u0435\u0442 \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0444\u0430\u0439\u043b\u0430","norepositoriesavailable":"\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u043d\u0438 \u043e\u0434\u043d\u043e \u0438\u0437 \u0412\u0430\u0448\u0438\u0445 \u0442\u0435\u043a\u0443\u0449\u0438\u0445 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449 \u0444\u0430\u0439\u043b\u043e\u0432 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0432\u0435\u0440\u043d\u0443\u0442\u044c \u0444\u0430\u0439\u043b\u044b \u0432 \u0437\u0430\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u043c\u043e\u043c \u0444\u043e\u0440\u043c\u0430\u0442\u0435.","fileexistsdialogheader":"\u0424\u0430\u0439\u043b \u0441\u043e\u0437\u0434\u0430\u043d","fileexistsdialog_editor":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d \u043a \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u043e\u043c\u0443 \u0442\u0435\u043a\u0441\u0442\u0443","fileexistsdialog_filemanager":"\u0424\u0430\u0439\u043b \u0441 \u044d\u0442\u0438\u043c \u0438\u043c\u0435\u043d\u0435\u043c \u0443\u0436\u0435 \u0431\u044b\u043b \u043f\u0440\u0438\u043a\u0440\u0435\u043f\u043b\u0435\u043d","renameto":"\u041f\u0435\u0440\u0435\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u0442\u044c \u0432 \u00ab{$a}\u00bb","referencesexist":"\u041d\u0430 \u044d\u0442\u043e\u0442 \u0444\u0430\u0439\u043b \u0435\u0441\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0438: {$a}","select":"\u0412\u044b\u0431\u0440\u0430\u0442\u044c","invalidfiletypetitle":"\u041d\u0435\u0434\u043e\u043f\u0443\u0441\u0442\u0438\u043c\u044b\u0439 \u0442\u0438\u043f \u0444\u0430\u0439\u043b\u0430"},"admin":{"confirmdeletecomments":"\u0412\u044b \u0443\u0432\u0435\u0440\u0435\u043d\u044b \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u044b\u0431\u0440\u0430\u043d\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438?","confirmation":"\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0435"},"debug":{"debuginfo":"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e\u0431 \u043e\u0442\u043b\u0430\u0434\u043a\u0435","line":"\u0421\u0442\u0440\u043e\u043a\u0430","stacktrace":"\u0422\u0440\u0430\u0441\u0441\u0438\u0440\u043e\u0432\u043a\u0438 \u0441\u0442\u0435\u043a\u0430"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random6ae19fa0e10394'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6ae19fa0e10394'); });
+})();
+//]]>
+</script>
+
+            </div>
+            <div class="footer-section p-3">
+                <div>На платформе <a href="https://moodle.com">Moodle</a></div>
+            </div>
+        </div>
+    
+        <div class="footer-content-debugging footer-dark bg-dark text-light">
+            <div class="container-fluid footer-dark-inner">
+                
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+</body></html>
